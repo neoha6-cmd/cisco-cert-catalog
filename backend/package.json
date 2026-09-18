@@ -1,0 +1,13 @@
+{
+  "name": "cisco-cert-catalog-backend",
+  "version": "1.0.0",
+  "description": "REST API serving a Cisco/vendor certification catalog",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
